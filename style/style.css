@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image:url(/img/cancha.png);
+    background-image:url(../img/cancha.png);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;
@@ -62,14 +62,14 @@ li{
 }
 /* cambio de colores */
 .dark{
-    background-image:url(/img/canchabyn.png );
+    background-image:url(../img/canchabyn.png );
 }
 
 .boca{
-    background-image:url(/img/bocafondo1.jpg);
+    background-image:url(../img/bocafondo1.jpg);
     color:#f9bc0b;
 }
 
 .river{
-    background-image:url(/img/riverfondo.jpg);
+    background-image:url(../img/riverfondo.jpg);
  }
