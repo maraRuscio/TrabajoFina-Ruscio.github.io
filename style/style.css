@@ -42,6 +42,7 @@ li{
     display:inline-block;
     margin:0.5rem;
    }
+
 .fondo{
     background-color: rgba(0, 0, 0, 0.336);
 
@@ -68,8 +69,14 @@ li{
 .boca{
     background-image:url(../img/bocafondo1.jpg);
     color:#f9bc0b;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 .river{
     background-image:url(../img/riverfondo.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
  }
