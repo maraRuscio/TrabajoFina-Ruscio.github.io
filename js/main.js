@@ -16,13 +16,12 @@ class Jugador{
 if(localStorage.getItem("misJugadores")){
     misJugadores = JSON.parse(localStorage.getItem("misJugadores"));
    } else{
-        const listadoJugadores = `../JSon/jugadores.json` //guardo la dire de donde esta mi archivo
-
+        const listadoJugadores = "../JSon/jugadores.json" //guardo la dire de donde esta mi archivo"
         fetch(listadoJugadores)
             .then(respuesta => respuesta.json())
             .then(datos => {
                 datos.forEach( jugador => {
-                    const jugador1 = new Jugador (`${jugador.id}`,`${jugador.nombre}`,`${jugador.apellido}`, `${jugador.goles}`, `${jugador.valInicial}`,`${jugador.valArquero}`, `${jugador.valCompas}`);
+                    const jugador1 = new Jugador (`${jugador.id}`,`${jugador.nombre}`,`${jugador.apellido}`, `${jugador.goles}`,`${jugador.valInicial}`,`${jugador.valArquero}`,`${jugador.valCompas}`);
                     misJugadores.push(jugador1);
                 })
                  // localStorage.setItem("misJugadores", JSON.stringify(misJugadores));
@@ -32,7 +31,7 @@ if(localStorage.getItem("misJugadores")){
                 mostrartopten();
             })
             .catch(error => Swal.fire({
-                title: "tuvimos un error en la recuperacion del equipo",
+                title: "Tuvimos un error en la recuperacion del equipo",
                 icon: error,
             }))
     };
