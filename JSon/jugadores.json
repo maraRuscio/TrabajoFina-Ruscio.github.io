@@ -1,0 +1,19 @@
+[
+    {"id":1, "nombre":"Franco", "apellido":"Armani", "goles": 0, "valInicial":6, "valArquero":0, "valCompas":0},
+    {"id":2, "nombre":"Emiliano", "apellido": "Martinez", "goles": 0, "valInicial":9, "valArquero":0, "valCompas":0},
+    {"id":3, "nombre":"Nicolas", "apellido": "Tagliafico", "goles": 3, "valInicial":5, "valArquero":0, "valCompas":0},
+    {"id":4, "nombre":"Gonzalo", "apellido": "Montiel", "goles": 3, "valInicial":4, "valArquero":0, "valCompas":0},
+    {"id":5, "nombre":"Cristian", "apellido": "Romero", "goles": 1, "valInicial":6, "valArquero":0, "valCompas":0},
+    {"id":6, "nombre":"Nicolas", "apellido": "Ottamendi", "goles": 0, "valInicial":3, "valArquero":0, "valCompas":0},
+    {"id":7, "nombre":"Marcos", "apellido": "Acuña", "goles": 2, "valInicial":5, "valArquero":0, "valCompas":0},
+    {"id":8, "nombre":"joaquin", "apellido": "Correa", "goles": 0, "valInicial":4, "valArquero":0, "valCompas":0},
+    {"id":9, "nombre":"Julian", "apellido": "Alvarez", "goles": 0, "valInicial":6, "valArquero":0, "valCompas":0},
+    {"id":10, "nombre":"Lionel", "apellido": "Messi", "goles": 1, "valInicial":8, "valArquero":0, "valCompas":0},
+    {"id":12, "nombre":"Angel", "apellido": "Di Maria", "goles": 3, "valInicial":7, "valArquero":0, "valCompas":0},
+    {"id":13, "nombre":"Facundo", "apellido": "Roncaglia", "goles": 2, "valInicial":6, "valArquero":0, "valCompas":0},
+    {"id":14, "nombre":"Nicolas", "apellido": "Figal",  "goles": 2, "valInicial":2, "valArquero":0, "valCompas":0},
+    {"id":15, "nombre":"Marcos", "apellido": "Rojo", "goles": 1, "valInicial":4, "valArquero":0, "valCompas":0},
+    {"id":16, "nombre":"Miguel", "apellido": "Borja", "goles": 0, "valInicial":6, "valArquero":0, "valCompas":0},
+    {"id":17, "nombre":"Pablo", "apellido": "Solari", "goles": 3, "valInicial":8, "valArquero":0, "valCompas":0},
+    {"id":18, "nombre":"Bruno", "apellido": "Zuculini", "goles": 0, "valInicial":7, "valArquero":0, "valCompas":0}
+]

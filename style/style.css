@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image:url(/img/cancha.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    color:#fff;
+    padding: 2rem;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0.3rem;
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+    -webkit-text-stroke:1px #212529;
+}
+
+.button{
+    background-color:#212529;
+    color:#fff;
+    border-radius: 0.5rem;;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    font-size: 1.2rem ;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+} 
+
+li{
+    text-decoration:none;
+    display:inline-block;
+    margin:0.5rem;
+   }
+.fondo{
+    background-color: rgba(0, 0, 0, 0.336);
+
+   }
+
+.imgColor{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.divButton{
+    height: 5rem;
+    display: flex;
+    justify-content:space-between;;
+    align-items:flex-start;
+
+}
+/* cambio de colores */
+.dark{
+    background-image:url(/img/canchabyn.png );
+}
+
+.boca{
+    background-image:url(/img/bocafondo1.jpg);
+    color:#f9bc0b;
+}
+
+.river{
+    background-image:url(/img/riverfondo.jpg);
+ }
