@@ -16,7 +16,7 @@ class Jugador{
 if(localStorage.getItem("misJugadores")){
     misJugadores = JSON.parse(localStorage.getItem("misJugadores"));
    } else{
-        const listadoJugadores = "../JSon/jugadores.json" //guardo la dire de donde esta mi archivo"
+        const listadoJugadores = "./JSon/jugadores.json" //guardo la dire de donde esta mi archivo"
         fetch(listadoJugadores)
             .then(respuesta => respuesta.json())
             .then(datos => {
